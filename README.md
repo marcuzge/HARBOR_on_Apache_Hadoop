@@ -1,5 +1,7 @@
 # HARBOR_on_Apache_Hadoop
 
+CS61C Spring 2016 Project 5
+
 As part of the larger CHAOS project, the mysterious No Such Agency has effectively wiretapped a huge fraction of the internet, recording every page request and, for web traffic that identifies the user, also recording the username in the reply. Each record includes both a timestamp and the network 4-tuple (source IP, source port, destination IP, destination port). For requests, it includes any tracking cookie seen in the HTTP request, while web replies include any extracted username. Requests also include the full HTTP headers (which include other features), but for this purpose they are simply treated as an opaque blob of data and excluded from the analysis.
 
 Of course, simply recording this data is of little use; it needs to be both analyzed and searched. Your job is to prototype the HARBOR internal database structure using Hadoop. HARBOR performs three primary tasks:
